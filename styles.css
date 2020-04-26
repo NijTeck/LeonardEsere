@@ -138,17 +138,7 @@ h1 {
     text-align: center;
   }
   
-  div.absolute {
-    position: absolute;
-    top:45%;
-    right: 15px;
-    background-color: gray;
-    position: center;
-    margin-right: -60px;
-    width: 300px;
-    height: 110px;
-    
-  }
+
 
 h1 {
     float: inline-start;
@@ -179,5 +169,15 @@ h1 {
     display: table;
     clear: both;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+   }
 
 
