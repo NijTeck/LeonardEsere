@@ -1,119 +1,361 @@
+
+<!-- style credit to w3 school /templat -->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title> Leonard A Esere </title>
-        <link rel="stylesheet" href="styles.css">
-  
-        
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {margin:0;}
-
-.navbar {
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
+    
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
-        
+<body class="w3-black">
+
     
-    </head>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="/html/leonard image.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#EXPOSURE" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>EXPOSURE</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
 
 
-    <body>
-            <nav>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
 
-                  <div class="navbar"> 
-   
-                    <a href="about.html"> About  &nbsp; &nbsp; &nbsp;</a>   &nbsp; &nbsp; &nbsp;
-                    <a href="portfolio.html"> Portfolio  &nbsp; &nbsp; &nbsp; </a>   &nbsp; &nbsp; &nbsp;
-                    <a href="contact.html">Contact  &nbsp; &nbsp; &nbsp;</a>  &nbsp; &nbsp; &nbsp;
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#EXPOSURE" class="w3-bar-item w3-button" style="width:25% !important">EXPOSURE</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+
+<header class='masthead'>
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <a href="#home" class="w3-bar-item w3-button" style="color: silver;"><b>LEONARD</b> Esere</a>
+            <!-- Float links to the right. Hide them on small screens -->
+          <p>Cloud Security Engineer and Web Devloper</p> 
+    <img src="" class="responsive" width="100%" height="auto">
+<a href="https://www.instagram.com/leonardesere/?hl=en">
+    <img src="leonard image.jpg" class="responsive" width="100%" height="span"  alt="Leonard Esere"/>
+<!--h1 style="text-align: center;">Leonard A Esere </h1-->
+</a>
+
+</header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey"> <a href="https://www.instagram.com/leonardesere/?hl=en">
+        <img src="facepic.jpg" class="responsive" width="45" height="45"  alt="Leonard Esere"/>
+    <!--h1 style="text-align: center;">Leonard A Esere </h1-->
+    </a>About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+
+My name is Leonard Esere I’m an Information Technology Specialist, Web Developer with concentration on Cyber-SECURITY, Cloud Architecture, front and backend Web Development. I have experience in computer repair and small office 
+network setup and configurations, with little expertise in cyber security. Highly intellectual and curious to finding how one thing inter-connects to another. I choose this career because I want to someday go back 
+to my country (Nigeria) and start-up a tech Not for Profit-Non Government Organization were I can train Nigerian youths from middle class below how to be expert in different Computer Science aspects that will make 
+them competitive and in return make Nigeria Great. 
+I came from a very rich family (the inverse is correct [very poor]) and I have the privilege to live in the United State. I will definitely go back to my country to invest in my society (the Youths).
+I graduated from the University of Texas at San Antonio where I earned a BA in Economics and currently  a graduate student in the Cybersecurity program, Management of Technology
+I'm a computer repair specialist who also have great skills and experience in computer networking and network security. With my involvement in school and my communities, I occasionally give public speeches, and organized 
+events. Being a leader in most organizations in my college, every day I solve problems, whether it's getting a good location for the next event, or finding a better way to address students’ issues, or trying to fixed a 
+computer over the phone, or configuring IP addresses for my home and school networks, or just writing up a good proposer or petitions for something important.
+
+​​
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Computer HardWare repair</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:99.9%"></div>
+    </div>
+    <p class="w3-wide">Security & Disaster Recovery</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:96.5%"></div>
+    </div>
+    <p class="w3-wide">Using Search Engines</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Storage</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Virtualisation</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:93%"></div>
+    </div>
+    <p class="w3-wide">SQL</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>   <p class="w3-wide">PowerShell & CMD </p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Linux</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Web Development [Back and FrontEnd] </p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Programming [JavaScript, JQuery, NODE.js, React+, GitHub, GitLab]</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">AWS Web-Services</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+
+
+    </div><br>
+    
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" placeholder="Certs">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">CompTIA Network+</span><br>
+        Cert
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">CompTIA Security +</span><br>
+        Cert
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">AWS SysOps Admin</span><br>
+        Cert
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">CompTIA Cloud+</span><br>
+        Cert
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"  >  <a href="/html/Leonard A Esere.pdf" download="Leonard Esere Resume"></a> </i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My - Services</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Training Section Price</li>
+          <li class="w3-padding-16">Cloud Security</li>
+          <li class="w3-padding-16">CompTIA Security+, Cloud + </li>
+          <li class="w3-padding-16">Cloud Storage and AWS DB</li>
+          <li class="w3-padding-16">Infrastructure Design</li>
+          <li class="w3-padding-16">
+            <h2>$55 </h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Project Hire</li>
+          <li class="w3-padding-16">Full Cloud Migration Accessment [Free] </li>
+          <li class="w3-padding-16">Migration Design</li>
+          <li class="w3-padding-16">/Cloud Infrastructure Setup</li>
+          <li class="w3-padding-16">Cloud IAM Role Creation and Implementation</li>
+          <li class="w3-padding-16">
+            <h2>$ [Veries]</h2>
+            <span class="w3-opacity">per project</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Contact Me</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Ana Bantasan.</span> Manager Medtronic </p>
+    <p>" <br> Leo is a hard working person. He is very friendly and helpful to anyone. <br> He has positive attitude and has a strong attention to detail. <br> 
+         He don't complain and he just do whatever job he ask him to do. <br> He is a good team player and great addition to our team.. <br> "</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">WILLIE KIM KAMARA.</span> PROFESSOR OF ECONOMICS at NORTH LAKE COLLEGE.</p>
+    <p>" <br> AS A STUDENT IN MY PRINCIPLES OF MACROECONOMICS IN THE SPRING OF 2016 HERE AT NORTH LAKE COLLEGE, <br> MR. LEONARD AIGBOKHAEVBO ATTENDED ALL CLASSES AND COMPLETED ALL THE REQUIRED ASSIGNMENTS AND EXAMS.<br> 
+         HE WAS ONE OF MY OUTSTANDING STUDENTS AND I AM PROUD TO HAVE HAD HIM AS A STUDENT IN MY CLASS. <br> AS A STUDENT IN MY CLASS, LEONARD GOT ALONG WITH HIS CLASSMATES VERY WELL AND DEMONSTRATED A VARIETY OF SKILLS IN HELPING HIS CLASSMATES. <br> FOR EXAMPLE, HE WOULD HELP THEM FIGURING OUT SOLUTIONS TO UNDERSTANDING THEIR HOMEWORK.
+        AS A STUDENT AT NORTH LAKE COLLEGE, <br> LEONARD WAS PRESIDENT OF THE AFRICAN STUDENTS UNION, AND I WAS AND STILL THE ADVISER TO THE GROUP. <br> 
+        HE WAS ALSO VERY ACTIVE IN OTHER AREAS OF COLLEGE ACTIVITIES SUCH AS THE NATIONAL SOCIETY OF COLLIGATE SCHOLARS-NSCS AND MEMBER OF THE STUDENT LEADERSHIP INSTITUTE.<br> 
+        FINALLY, MR. AIGBOKHAEVOBO WAS VERY POLITE, AND RESPECTFUL, AND I WAS VERY HAPPY TO HAVE HIM IN MY CLASS.<br> 
+        IF THERE IS ANYTHING I CAN DO OR SAY FURTHER ON HIS BEHALF, PLEASE FEEL FREE TO CONTACT ME AT NORTH LAKE COLLEGE. <br> " </p>
+  <!-- End About Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content" id="EXPOSURE">
+    <h2 class="w3-text-light-grey">Education</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <h5 class="w3-opacity"><b>Master of Science Management of Technology / University of Texas At San Antonio</b></h5>
+    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+    <h5 class="w3-opacity"><b>Bachelors of Art Economics / University of Texas At San Antonio</b></h5>
+    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2019</h6>
+    <!-- <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p> -->
+ 
+
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="EXPOSURE">
+    <h2 class="w3-text-light-grey">Industry Exposure</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <!-- <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p> -->
   
 
-                  <!--li><a href="#">Home</a> &nbsp; &nbsp; &nbsp; <a href="#">About Me</a> &nbsp; &nbsp; &nbsp; <a href="#">Contact</a>
-                </ul-->
-              </nav>
+
+    <!-- Grid for EXPOSURE -->
+    <!-- <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/html/" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+ 
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+
+      </div> -->
+    <h5 class="w3-opacity"><b>End User Cloud Engineer  / USAA</b></h5>
+    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+    <p> Directly migrated USAA 24, 000 employees to work from home 
+        <br> using  Palo Alto and Barracuda WAF
+        Manage incidents and Alerts
+        Work on new cloud services
+        Create reports and present</p>
+        Work across technology and security teams to develop and deploy technical controls <br>  and secure architectures to protect the integrity of data and the ability to deliver digital <br> content.
+Perform business risk analysis, protocol evaluation and technical vulnerability assessments. <br>
+Work with information security leadership to develop strategies and plans to enforce security <br> requirements and address identified risks.
+Study, understand, and document current application architectures, <br> implementations for domains assigned to mitigate threats as they emerge. <br> Create 'as-is' vs 'to-be' architecture and Gap Analysis documents.<br> 
+Use solid project management skills to drive end to end security process development
+    <hr>
     
-    
-                
-            <header class='masthead'>
-    
-                    <img src="" class="responsive" width="100%" height="auto">
-                <a href="https://www.instagram.com/leonardesere/?hl=en">
-                    <img src="BigBen.jpg.jpg" class="responsive" width="100%" height="auto"  alt="Leonard Esere"/>
-                <!--h1 style="text-align: center;">Leonard A Esere </h1-->
-                </a>
+    <h5 class="w3-opacity"><b> Network Administrator  / MEDTRONIC INC </b></h5>
+    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October  2018 - January 2020</h6>
+    <p>                    
+        <li>		Creating and managing application  integrations for identify and access management. Having Experience of Creating conditional Access policies Multifactor authentication (MFA), Resetting MFA and Resolving the MFA issues. </li>
+        <li>		Familiarity in the following areas: single sign-on, enterprise directory architecture and design, directory schema, namespace, replication topology, resource provisioning, role-based access Control, user lifecycle. </li>
+        <li>		Strong hands-on administration experience on Windows 2012 server - Forest, Domain trust, AD, DFS, DNS, WINS, DHCP, Group Policy, Distribution lists, Windows folder security, and IP filter. </li>
+        <li>	    Managing Microsoft Identity Management products (Active Directory, Active Directory Federation Services, and Office 365) serving as an enterprise-wide directory containing 21k Objects </li>
+        <li>		Install new / rebuild existing servers and configure, services, settings, directories, storage, etc. in accordance with standards and project/operational requirements. </li>
+        <li>		Used SIEM (McAfee ESM), and SolarWinds Threat Monitor to monitor, identify and the forward to teir3 if needed for further investigation </li>
+        <li>		Creating and maintaining User accounts, Profiles, Security, rights, disk space and process monitoring using Active Directory. </li>
+        <li>		Lead on-boarding and handling users, client machines, and all infrastructure including servers, workstations, routers etc. </li>
+        <li>		Experience on LAN Cabling, RJ 45 crimping, Labelling, Patch Panel, PC Junction boxes, Phone Switches and Rack set-up.  </li>
+        <li>		Providing remote and hands-on administration of Various hardware and desktop applications  </li>
+        <li>        Creating templates from VM’s and deploying VM’s from templates and allocate resources.</li>
+        <li>		Resolving hardware/Operating Systems and application software issues within SLA </li>
+        <li>		Configure user SSTP using Palo Alto Networks (Global Protect) </li>
+        <li>		Experience using Wireshark/TCP Dump to analyse network packets </li>
+        <li>		Endpoint security experience (for customer remote access) </li>
+        <li>		Manage user Citrix virtual environment hypervisor/ </li></p>
+    <br>
+    <hr>
+    <h5 class="w3-opacity"><b>Cloud Engineer / PRO-VIGIL SURVEILLANCE</b></h5>
+    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2017 – July 2018</h6>
+    <p>        
+        <li>Cable Run to new workstation(s). </li>
+        <li>Remote Desktop support with TeamViewer </li>
+        <li>Completely setting up a Network with Pro-Vigil Device. </li>
+        <li>Perform security training to Pro-Vigil internal employees and clients. </li>
+        <li>Server room Network Equipment racking and stacking of Network equipment. </li>
+        <li>Configuration of Synology NAS, setting up CSM, Virtual Machines on Synology NAS </li> 
+        <li>Adding Users to Salesforce servers managing/monitoring my company AWS Immix servers, </li>
+        <li>IP conflicts issues troubleshooting, DHCP server problem IP subnetting and assignments </li>
+        <li>Do Field service for escalations and hot sites. Manages all local computers and Network </li>
+        <li> New user account creation and assignment, New employee account setup and creation in AD </li>
+        <li>Doing Port forwarding rules on the customer Routers, IP Whitelisting, and MAC Pass-through.</li>
+        <li>Setting up Access Points and Clients Bridges (Engenius). Defining best configuration for devices. </li>
+        <li>Net-suite setup FireEye account creation WatchGuard Firewall Monitor and configuration User account management, </li>
+        <li>Extensive Knowledge of Synology NAS *Engenius APs and CBs *CradlePoints Routers Ubiquity Switches Trednet Switches</li></p>
+    <hr>
 
-            </header>
-
-               
-            
-        
-           
-
-
-
-                <!--div class="column" style="background-color:#ddd;">
-                  <h2>Column 4</h2>
-                  <p>Some text..</p>
-                </div>
-              </div>
-
-
-
-
-                
-
-        <footer>
-            <p> Phone 215222222 </p>
-            <li> Copyright reserved 2020 Leonardesere Foundation</li>
-        </footer-->
-        
-
-
-        <footer>
-          <div class="footer">
-            <p> <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"> Visit my linkedin</a>
-              <button onclick="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"> Linkedin </button>
-            </p>
-          </div>
-                  <br>
-                  
-          
-              </footer>
-       
+    </div>
+    <!-- End photo grid -->
+  <!-- End Portfolio Section -->
   
-                
-             
+  </div>
 
-        
-</body
-></html>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> San Antonio, TX, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 210 8508252</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: leonardesere@outlook.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Developed by Leonard Esere</a></p>
+    <!-- Powered by W3 School -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+<!-- style credit to w3 school -->
