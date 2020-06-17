@@ -1,0 +1,132 @@
+
+Leonard Esere
+
+San Antonio, TX 78256
+Phone: (214) 244-0976
+E-Mail: Leonardesere@gmail.com
+
+Links
+
+            LinkedIn: @leonardesere
+
+            www.github.com/NijTeck
+
+            www. leonardesere.com
+
+Professional Summary
+
+Meticulous System Administrator with experience in computer systems and server administration. Proven skill in quickly and effectively remedying issues to bring servers back to functionality after crashes. Strong communication and interpersonal skills with ability to explain technical concepts to non-technical audiences.. Skilled Technologist with experience configuring computers, servers and peripheral devices to work within established company and security parameters. Adept at managing permissions, filters and file sharing. Devoted troubleshooter with deep understanding of system architecture and diagnostics.
+
+Skills
+
+Account management, Switches
+Active Directory, Desktop support
+Cloud Security Associate
+Security Analyst, AD, Phone
+APs, Troubleshoot
+Bridges, Troubleshooting
+Cable, VM, Hardware
+DHCP, Firewall, IP,LAN
+Information security, NAS, Network
+Project management, Operating Systems
+Risk analysis, Software diagnosis
+
+Servers, Routers
+Local Area Network (LAN) Engineering, TCP/IP
+Desktop support, MS Office
+Mac systems, First Aid/CPR
+Application support, Software Debugging, Customer service
+Staff education and training
+Technical issues analysis
+Servers expertise, Infrastructure planning
+Virtualization, Hardware and software installation
+Programming, System upgrades
+Operating systems, Technical specifications
+
+Work History
+
+December 2019 to Current
+USAA San Antonio, Texas
+Technical Support Specialist    
+
+Directly migrated USAA 24, 000 employees to work from home using Palo Alto and Barracuda WAF
+Manage incidents and Alerts
+Work on new cloud services, deploying and troubleshooting Virtual Machines issues,
+Using tools like director, Vsphere, CMD
+Create reports and present
+Work across technology and security teams to develop and deploy technical controls
+And secure architectures to protect integrity of data and ability to deliver digital content
+Perform business risk analysis, protocol evaluation and technical vulnerability assessments
+Work with information security leadership to develop strategies and plans to enforce security requirements and address identified risks
+Study, understand, and document current application architectures,
+Implementations for domains assigned to mitigate threats as it emerge
+Create 'as-is' vs 'to-be' architecture and Gap Analysis documents
+Use solid project management skills to drive end to end security process development
+Worked with software development team on reported errors and bugs on newly released software and assisted in deployment of release fixes
+Assessed system hardware and software and suggested modifications to reduce lag time and improve overall speed
+
+October 2018 to December 2019
+Medtronic INC San Antonio, Texas
+Network Administrator    
+
+Managing Microsoft Identity Management products (Active Directory, Active Directory Federation Services, and Office 365) serving as enterprise-wide directory containing 21k Objects
+Creating and managing application integrations for identify and access management
+Installed, configured, and supported local area network (LAN), wide area network (WAN) and Internet system
+Creating and maintaining User accounts, Profiles, Security, rights, disk space and process monitoring using Active Directory
+Resolving hardware/Operating Systems and application software issues within SLA
+Manage user citrix virtual environment hypervisor/
+Configure user SSTP using Palo Alto Networks (GlobalProtect)
+Endpoint security experience (for customer remote access)
+Experience using Wireshark/TCP Dump to analyse network packets
+Used SIEM (McAfee ESM), and SolarWinds Threat Monitor to monitor, identify and the forward to teir3 if needed for further investigation
+Lead on-boarding and handling users, client machines, and all infrastructure including servers, workstations, routers etc
+Install new / rebuild existing servers and configure, services, settings, directories, storage, etc
+Reviewed network settings and made immediate updates, which improved overall security measures
+Providing remote and hands-on administration of Various hardware and desktop applications
+Experience on LAN Cabling, RJ 45 crimping, Labelling, Patch Panel, PC Junction boxes, Phone Switches and Rack set-up
+Creating templates from VM's and deploying VM's from templates and allocate resources
+Managed data backups and disaster recovery operations for 35,150-person company
+Performed system maintenance and upgrades, including patches, service packs, hot fixes and new security configurations
+Monitored stability of network and wireless services to deliver comprehensive stability
+Logged, resolved and escalated on-site and off-site issues
+Maintained strict adherence to regulations such as payment card industry (PCI) data security standard
+
+August 2017 to July 2018
+PRO-VIGIL SURVEILLANCE San Antonio, Texas
+IT SPECIALIST    
+
+Troubleshoot Network equipment, IP and analogy camera installation, Support Field Technicians over phone
+IP conflicts issues troubleshooting, DHCP server problem IP subnetting and assignments
+New user account creation and assignment, New employee account setup and creation in AD
+Remote Desktop support with TeamViewer
+Net-suite setup FireEye account creation WatchGuard Firewall Monitor and configuration User account management,
+Perform security training to Pro-Vigil internal employees and clients
+Configuration of Synology NAS, setting up CSM, Virtual Machines on Synology NAS
+Doing Port forwarding rules on the customer Routers, IP Whitelisting, and MAC Pass-through
+Setting up Access Points and Clients Bridges (Engenius)
+Defining best configuration for devices
+Completely setting up a Network with Pro-Vigil Device
+Server room Network Equipment racking and stacking of Network equipment
+Cable Run to new workstation(s)
+Extensive Knowledge of Synology NAS
+Engenius APs and CBs
+CradlePoints Routers Ubiquity Switches Trednet Switches
+Do Field service for escalations and hot sites
+Manages all local computers and Network
+Broke down and evaluated user problems, using test scripts, personal expertise and probing questions
+Removed malware, ransomware and other threats from laptops and desktop systems
+Configured hardware, devices and software to set up work stations for employees
+
+Education
+
+2019 University of Texas San Antonio, TX
+Bachelor of Arts Economics 
+
+2019 The University of Texas at San Antonio San Antonio, TX
+Master of Science Management Information Systems 
+Currently Taking Classes
+
+Certifications
+
+CompTIA Network+, Security+, Cloud+, AWS SysOps Associate
+
